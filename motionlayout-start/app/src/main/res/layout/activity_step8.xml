@@ -27,6 +27,8 @@
                 android:id="@+id/motion_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:minHeight="80dp"
+                app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed"
                 app:layoutDescription="@xml/step8"
                 app:motionDebug="SHOW_PATH" >
 
@@ -48,7 +50,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/ic_moon"
-                    android:tint="?colorOnPrimary"
+                    app:tint="?colorOnPrimary"
             />
 
             <TextView
